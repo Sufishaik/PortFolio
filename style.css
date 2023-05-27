@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&dirsplay=swap');
+body{
+    margin: 0;
+    padding: 0;
+    /* font-size: 18px; */
+    /* font-family:sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Navbar */
+/* transition: color 0.5s; */
+.navbar-logo{
+    text-decoration: none;
+    font-weight: bold;
+}
+/* @media only screen {
+    
+} */
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+}
+
+
+/* Home */
+#HOME{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./Images/HomeBgImg.jfif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+#HOME img{
+    padding-top: 20px;
+    border-radius: 25px;
+    width: 275px;
+}
+@media only screen and (max-width:770px) {
+
+   #HOME img{
+       width: 200px; 
+       padding-bottom: 20px;
+   }
+   .brHello{
+    display: none;
+   }
+   .alert{
+    display: block !important;
+   }
+}
+#HOME h1{
+    color: #fff;
+    margin-top: 50px;
+    padding-left: 10px;
+    font-weight: bold;
+    line-height: 4rem;
+}
+#HOME p{
+    color: #fff;
+}
+#HOME span{
+    /* color: rgb(16 87 212); */
+    color: blue;
+}
+#HOME a{
+    padding-left: 10px;
+}
+
+/* About */
+#ABOUT{
+     padding-top: 65px;
+   padding-bottom:50px;
+    /* background-image: url(about_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; */
+}
+#ABOUT h3{
+    font-size: 30px;
+}
+#ABOUT img{
+    border-radius: 25px;
+    padding: 0px 10px 10px 10px;
+
+}
+
+#About-Me span{
+    color: blue;
+    font-weight: bold;
+}
+.social-icons{
+    position: sticky;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 80px;
+}
+.social-icons ul{
+    padding: initial;
+}
+.social-icons ul li{
+    list-style-type: none;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    padding-left: 10px;
+    padding-top: 8px;
+    margin-top: 5px;   /* for seperate every list element*/ 
+    color: #fff;
+
+}
+.social-icons ul li:hover{
+    padding-left: 20px;
+    width: 80px;
+    transition: all 1s;
+}
+
+
+/* EDUCATION */
+#EDUCATION{
+    background-image: url(./Images/EducationImg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+#EDUCATION h3{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: black;
+    /* font-weight: bold; */
+}
+#EDUCATION li{
+    padding-bottom:5px ;
+    margin-bottom: 12px;
+    list-style-type: none;   
+    background-color:rgb(84 236 238);
+}
+#EDUCATION h5{
+    padding:4px 0 4px 15px;
+    background-color: #000;
+    color:#fff;
+}
+#EDUCATION p{
+    padding:3px 0 3px 15px;
+}
+
+
+/* Skills */
+#SKILLS{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+#SKILLS h3{
+    /* font-weight: bold; */
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#SKILLS img{
+    max-width: 100px;
+}
+@media only screen and (max-width:300px) {
+    #SKILLS img{
+        max-width: 70px;
+    }  
+    h1 {
+        font-size: 25px;
+    }
+}
+
+/* Projects Section */
+#PROJECTS{
+    background-image: url(./Images/ProjectBg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+#PROJECTS h3{
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+ .Project-card{
+  
+  margin: 10px 20px;
+  text-align: -webkit-center;
+} 
+
+/* Contact */
+#CONTACT{
+    background-image: url(Images/ContactImg.jfif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 30px;
+    color: #fff;
+}
+#CONTACT h3{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+}
+ #CONTACT form{
+ margin-bottom: 30px;
+
+} 
+
+/* Footer */
+.footer{
+    padding: 5px;
+    background-color: #000;  
+
+}
+.footer p{
+    margin: 3px;
+}
+.footer .bi{
+    color: red;
+    /* font-size: 1.2em; */
+}
